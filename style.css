@@ -1,0 +1,27 @@
+#canvas {
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+}
+
+.row > * {
+  margin-right: 1rem;
+}
+
+.column {
+  border: 1px solid black;
+  width: 12rem;
+  height: 12rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.color {
+  display: flex;
+  flex: 1 1 100%;
+  justify-content: center;
+  align-items: center;
+}
